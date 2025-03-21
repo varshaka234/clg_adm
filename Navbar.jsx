@@ -30,7 +30,6 @@ const Navbar = () => {
   }, []);
 
   return (
-    
     <nav className="bg-white px-4 py-2 shadow-md w-full relative">
       <div className="flex items-center justify-between">
         {/* Logo Section */}
@@ -38,7 +37,7 @@ const Navbar = () => {
           <img
             src="/university-logo.webp"
             alt="University Logo"
-            className="h-20 w-20 mr-3 object-contain"
+            className="h-29 w-29 mr-3"
           />
           <div>
             <h1 className="text-xl font-bold text-blue-900">

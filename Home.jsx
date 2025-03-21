@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AdmissionCard from "../components/AdmissionCard";
 import LoginForm from "../components/LoginForm";
 
@@ -12,6 +13,13 @@ function Home() {
           {/* Login Form */}
           <LoginForm />
         </div>
+      </div>
+
+      {/* Admin Login Link */}
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+        <Link to="/admin-login" className="text-lg text-blue-600 font-semibold hover:underline">
+          Admin Login
+        </Link>
       </div>
     </div>
   );
